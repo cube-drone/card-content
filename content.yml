@@ -1,0 +1,22 @@
+name: Welcome to CardChapter
+author: Cube Drone
+author_link: https://cube-drone.com
+description: |
+  CardChapter is a lightweight web presentation software intended to look good on your phone's screen.
+image: assets/bee.jpg
+favicon: assets/favicon.png
+pages:
+  - title: Introduction
+    id: intro
+    content: |
+      ## This is CardChapter
+      
+      CardChapter is a lightweight web presentation software intended to look good on your phone's screen.
+  - title: Types of Bees
+    id: bee-types
+    content: |
+      There are many types of bees, including honeybees, bumblebees, and solitary bees.
+  - title: Importance of Bees
+    id: importance
+    content: |
+      Bees are important because they help pollinate plants, which helps plants reproduce.
