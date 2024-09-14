@@ -1,0 +1,191 @@
+name: Example
+author: Example
+hidden: false
+author_link: https://example.com
+description: |
+  Whoa, look at all of these bees!
+  There sure are a lot of them! Great big **giant** bees! HUGE BEES! As far as the eye can sees!
+image: assets/bee.jpg
+extra_header: |
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <style>
+    h1, h2, h3, h4, h5, h6{
+    }
+    .textboss{
+      height: 100px;
+      width: 100%;
+      font-family: "Pixelify Sans", sans-serif;
+      font-optical-sizing: auto;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 3px solid white;
+      background-color: black;
+      color: white !important;
+      margin-top: 298px;
+      border-radius: 2px;
+    }
+    .primary-card {
+        background: linear-gradient(221deg, #6171e8, #4250b8, #ad935a);
+        background-size: 300% 300%;
+    }
+
+  </style>
+pages:
+  - title: A Presentation about Bees
+    animate_container: true
+    container_class: border
+    fade_in: 1000
+    shake: 5000
+    amount: 2
+    id: cover
+  - type: stack
+    title: Owen Says Hi
+    id: owen-says-hi
+    pages:
+      - id: owen
+        fade_in: 1000
+        image: assets/owen.png
+      - id: says-hi
+        type: animated-text
+        fade_in: 1500
+        delay: 1800
+        class:
+          - textboss
+        content: Hi, I'm Owen! I'm here to help you learn about BEEEEEEEES.
+  - title: Owen Gets Close
+    id: owen-gets-close
+    pages:
+      - title: Dolly In
+        id: dolly-in
+        image: assets/owen.png
+        dolly_in: 1.5
+        duration: 2000
+        delay: 200
+      - id: says-bees
+        type: animated-text
+        fade_in: 2000
+        animate_container: true
+        class:
+          - textboss
+        content: Bees are really important.
+  - title: Dolly Out
+    id: dolly-out
+    image: assets/owen.png
+    dolly_out: 0.1
+    shake: 2000
+    delay: 200
+  - title: Brotate
+    id: brotate
+    image: assets/owen.png
+    spin_clockwise: -360
+    dolly_in: 2
+    duration: 5000
+    delay: 200
+  - type: animated-text
+    class:
+      - textboss
+    content: Just because the text is here doesn't mean it's important.
+    pan_up: 200
+    shake: 100
+    duration: 5000
+    id: animated-text
+  - id: wow
+    depth: 2
+    pan_down: 400
+    duration: 5000
+    delay: 1500
+    easing: easeInOutCubic
+    loop: true
+    image: assets/wow.png?tall
+  - id: wow-2
+    depth: 2
+    loop: true
+    easing: easeInOutElastic
+    duration: 10000
+    delay: 1500
+    pan_up: 400
+    image: assets/wow.png?tall
+  - id: wow-3
+    depth: 2
+    easing: easeInOutElastic
+    loop: true
+    delay: 1500
+    duration: 3000
+    pan_left: 330
+    image: assets/wow-across.png?wide
+  - id: wow-4
+    depth: 2
+    loop: true
+    delay: 1500
+    duration: 3000
+    pan_right: 330
+    image: assets/wow-across.png?wide
+  - title: Introduction
+    container_class:
+      - opaque
+      - border
+    id: intro
+    content: |
+      Bees are **important pollinators** that help plants reproduce.
+
+      Bee-hold:
+
+      ![A bee](assets/bee.jpg?width=100)
+  - id: stack
+    title: Stacked Images
+    container_class:
+      - opaque
+      - border
+    type: stack
+    pages:
+      - id: stacked-1
+        fade_in: 750
+        image: assets/stacked/1.png
+      - id: stacked-2
+        fade_in: 1500
+        image: assets/stacked/2.png
+      - id: stacked-3
+        fade_in: 2250
+        image: assets/stacked/3.png
+  - id: stack-2
+    depth: -1
+    type: stack
+    pages:
+      - id: stacked-bg
+        fade_in: 1000
+        image: assets/stacked/bg.png
+      - id: stacked-mg
+        fade_in: 2000
+        image: assets/stacked/mg.png
+      - id: stacked-fg
+        fade_in: 3000
+        image: assets/stacked/fg.png
+  - title: Florb!
+    id: florb
+    type: pngs
+    pngs: assets/florb
+    pngs_fps: 12
+    loop: true
+    overlay_animated_text:
+  - image: assets/sample.png?color=111111
+    id: sample-image
+  - video: assets/test_mp4_video.mp4
+    depth: 2
+    video_controls: true
+    id: test-mp4
+  - video: assets/test_webm_video.webm
+    depth: 2
+    loop: true
+    id: test-webm
+  - title: Types of Bees
+    depth: 3
+    id: bee-types
+    content: |
+      There are many types of bees, including honeybees, bumblebees, and solitary bees.
+  - title: Importance of Bees
+    id: importance
+    content: |
+      Bees are important because they help pollinate plants, which helps plants reproduce.
