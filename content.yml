@@ -12,10 +12,14 @@ pages:
       ## This is CardChapter
       
       CardChapter is a lightweight web presentation software intended to look good on your phone's screen.
-  - title: Types of Bees
-    id: bee-types
+  - title: Things it Supports
+    id: things it supports
     content: |
-      There are many types of bees, including honeybees, bumblebees, and solitary bees.
+      ### What Can It Do?
+      * Markdown
+      * Images
+      * Moving Those Images Somewhat
+      * Other Things
   - title: Importance of Bees
     id: importance
     content: |
