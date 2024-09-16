@@ -21,15 +21,10 @@ extra_header: |
   </style>
 pages:
   - id: intro
-    stack:
-      - id: intro-image
-        image: assets/atoms_title.png
-      - id: intro-text
-        class: bottom-up
-        content: |
-          Atoms isn't real.
+    content: |
+      # Atoms isn't real.
 
-          They're just a theory.
+      They're just a theory.
   - id: have-you-ever-seen-an-atom
     stack:
       - id: have-you-ever-seen-an-atom-2
@@ -257,3 +252,19 @@ pages:
       Together, we can **win**.
 
       The whole world is **counting** on us.
+  - id: how-to-help
+    content: |
+      Here are some ways you can help:
+
+      2. **Take** the red pill. No - not that one. That one's a **Benadryl**. The other one. The **truth** pill.
+      3. No, not that one either. That is **estradiol**. How did you even get that?
+      4. That is a **Skittle**. You are just eating random pills now.
+  - id: how-to-help-2
+    content: |
+      1. **Share** this website with your friends. Open their **eyes**.
+      2. **Donate** to the cause.
+      3. **Post** using the hashtag **#atomsIsntReal**.
+      4. **Spread** the word.
+      5. **Buy** the **t-shirt**.
+      6. _Okay, I haven't made a t-shirt_.
+      7. **Make** a **t-shirt**.
