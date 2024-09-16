@@ -252,6 +252,16 @@ pages:
       Together, we can **win**.
 
       The whole world is **counting** on us.
+  - id: keanu
+    stack:
+      - id: keanu-1
+        image: assets/keanu.png
+      - id: keanu-2
+        fade_in: 1500
+        image: assets/keanu-2.png
+      - id: keanu-3
+        fade_in: 2800
+        image: assets/keanu-3.png
   - id: how-to-help
     content: |
       Here are some ways you can help:
