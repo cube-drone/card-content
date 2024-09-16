@@ -252,6 +252,11 @@ pages:
       Together, we can **win**.
 
       The whole world is **counting** on us.
+  - id: reddit-tall
+    image: assets/reddit-tall.png?tall
+    pan_down: 100
+    delay: 2000
+    duration: 6000
   - id: keanu
     stack:
       - id: keanu-1
