@@ -1,0 +1,259 @@
+name: Atoms isn't Real
+author: cube-drone
+author_link: https://cube-drone.com
+description: |
+  Atoms isn't real. They're just a theory.
+image: assets/atoms_title.png
+favicon: assets/favicon.png
+extra_header: |
+  <style>
+    body{
+      font-family: "Times New Roman", Times, serif;
+    }
+    .bottom-up {
+      margin-top: 300px;
+      font-size: x-large;
+      text-align: center;
+    }
+    .markdown-card {
+      font-size: x-large;
+    }
+  </style>
+pages:
+  - id: intro
+    stack:
+      - id: intro-image
+        image: assets/atoms_title.png
+      - id: intro-text
+        class: bottom-up
+        content: |
+          Atoms isn't real.
+
+          They're just a theory.
+  - id: have-you-ever-seen-an-atom
+    stack:
+      - id: have-you-ever-seen-an-atom-2
+        content: |
+          Ask yourself this: have you ever seen an atom?
+
+          No, of course you haven't.
+      - id: have-you-ever-seen-an-atom-3
+        fade_in: 500
+        image: assets/hmm.png
+  - id: nobody-has-ever-proven
+    content: |
+      The **burden of proof** is on the scientists to prove that atoms are real.
+
+      If you are **claiming** that atoms are real, then you need to **prove** it.
+
+      More and more people are starting to realize that atoms are nothing more than a theory.
+  - id: what-do-atom-believers-believe
+    content: |
+      According to **atom believers**, water is made up of atoms.
+
+      They claim that a single molecule of water weighs 0.00000000000000000000
+
+      00000016 kilograms.
+
+      But is it possible they are just throwing big numbers at you to hide the _truth_?
+  - id: pikahchu
+    stack:
+      - id: pikachu-1
+        image: assets/surprised-pikachu.png
+        fade_in: 1000
+        duration: 5000
+      - id: pikahchu-2
+        content: |
+          **scientists**: "all matter is solid, liquid, gas, or plasma"
+
+          **cereal**: "exists"
+
+          **scientists**:
+  - id: the-truth
+    content: |
+      The truth is that atoms are just a theory.
+
+      They are a **lie** that has been perpetuated by the scientific community for **centuries**.
+
+      It's time to wake up and realize that atoms aren't real.
+
+      Ancient philosophers from many cultures knew the **truth** about matter.
+  - id: history-stack
+    stack:
+      - id: history-stack-1
+        content: |
+          The Greek philosopher Empenada believed that everything was made of four elements:
+          earth, air, fire, and water.
+      - id: history-stack-2
+        image: assets/empidocles.png
+        fade_in: 500
+  - id: chlorine
+    stack:
+      - id: chlorine-1
+        content: |
+          Chlorine is a **toxic** gas that is used to **kill** bacteria in swimming pools.
+
+          And yet, according to **atom believers**, harmless table salt is made up of chlorine?
+
+          It doesn't make any sense.
+      - id: chlorine-2
+        image: assets/water.png
+        fade_in: 2000
+  - id: chlorine-2
+    image: assets/chloring.png
+    delay: 3000
+    dolly_in: 1.5
+  - id: plasma-trouble
+    content: |
+      Scientists claim that all matter exists in four states: solid, liquid, gas, and plasma.
+
+      According to Google, **plasma is over 10,000 degrees**.
+
+      And yet, if you touch a plasma TV, it's **not hot at all**.
+
+      How does **that** work?
+  - id: not-dead-from-plasma
+    stack:
+      - id: not-dead
+        image: assets/still-alive.png
+      - id: not-dead-2
+        fade_in: 1000
+        dolly_in: 1.3
+        image: assets/still-alive-2.png
+      - id: not-dead-3
+        fade_in: 2000
+        image: assets/still-alive-3.png
+  - id: plasma-trouble-2
+    content: |
+      Ask a doctor if you have plasma in your blood.
+
+      They'll say "yes".
+
+      And yet we know that plasma is **over 10,000 degrees**.
+
+      It **doesn't make any sense**.
+  - id: chemistry
+    stack:
+      - id: chemistry-2
+        content: |
+          ## Chemistry **still** has no explanation for why **superheated plasma** is **in your blood**.
+      - id: chemistry-3
+        fade_in: 1000
+        dolly_out: 0.9
+        image: assets/hmm.png
+  - id: plasma-trouble-3
+    image: assets/plasma.png
+    fade_in: 500
+  - id: egg
+    stack:
+      - id: egg-2
+        content: |
+          According to scientists, if you heat up a liquid, it turns into a gas.
+
+          And yet, if you heat up a **liquid** egg, it turns into a **solid**.
+      - id: egg-3
+        image: assets/egg.png
+        shake: 2500
+  - id: experiment
+    stack:
+      - id: experiment-content
+        content: |
+          Try this experiment at home:
+
+          1. Take a glass of water.
+          3. Heat it past 100 degrees.
+          4. Watch as it **doesn't** turn into a gas.
+      - id: no-gas-here
+        fade_in: 700
+        image: assets/whaat.png
+  - id: experiment-2
+    stack:
+      - id: splain
+        image: assets/explain-this.png
+      - id: splain-2
+        fade_in: 1500
+        image: assets/explain-this-2.png
+      - id: splain-2
+        fade_in: 2500
+        image: assets/explain-this-3.png
+  - id: experiment-3
+    stack:
+      - id: water-drinking
+        content: |
+          Water is made out of **hydrogen** and **oxygen**.
+
+          And yet, if you drink water, you don't explode like the **Hindenburg**.
+
+          You **drown**. Despite the **oxygen**.
+      - id: splain-4
+        image: assets/water.png
+      - id: splain-5
+        image: assets/water-2.png
+        fade_in: 2000
+      - id: splain-6
+        image: assets/water-3.png
+        fade_in: 4000
+  - id: scientific-community
+    content: |
+      The scientific community is **afraid** of the truth.
+
+      They will do **anything** to keep the lie of atoms alive.
+
+      But **we** know the truth.
+  - id: not-the-only-ones
+    stack:
+      - id: not-the-only-ones-1
+        content: |
+          ## And we're not the only ones who know the truth.
+      - id: not-the-only-ones-2
+        fade_in: 700
+        image: assets/whaat.png
+  - id: they-knew
+    stack:
+      - id: they-knew-1
+        image: assets/earth-wind-and-fire.png
+      - id: they-knew-2
+        fade_in: 2000
+        image: assets/earth-wind-and-fire-2.png
+  - id: avatar
+    stack:
+      - id: avatar-1
+        image: assets/avatar-1.png
+      - id: avatar-2
+        fade_in: 1000
+        image: assets/avatar-2.png
+      - id: avatar-3
+        fade_in: 2000
+        image: assets/avatar-3.png
+      - id: avatar-4
+        fade_in: 3000
+        image: assets/avatar-4.png
+      - id: avatar-5
+        fade_in: 4000
+        image: assets/avatar-5.png
+      - id: avatar-6
+        fade_in: 6000
+        image: assets/avatar-6.png
+      - id: avatar-7
+        fade_in: 6500
+        image: assets/avatar-7.png
+        shake: 1500
+  - id: clues-are-hidden-everywhere
+    stack:
+      - id: clues-are-hidden-everywhere-1
+        content: |
+          ## Clues are hidden _everywhere!_
+      - id: clues-are-hidden-everywhere-2
+        fade_in: 1500
+        image: assets/captain-planet.png
+  - id: join-the-community
+    content: |
+      Join the community of people who know the truth.
+
+      Together, we can **fight** the lie of atoms.
+
+      Together, we can **change** the world.
+
+      Together, we can **win**.
+
+      The whole world is **counting** on us.
