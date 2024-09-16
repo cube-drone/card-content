@@ -10,8 +10,13 @@ pages:
     id: intro
     content: |
       ## This is CardChapter
-      
+
       CardChapter is a lightweight web presentation software intended to look good on your phone's screen.
+
+      ### Presentations:
+
+      * [Atoms isn't Real](/s/cube-drone/atoms-isn-t-real/).
+      * [Nonsense Example Presentation](/s/example/example).
   - title: Things it Supports
     id: things it supports
     content: |
@@ -20,7 +25,4 @@ pages:
       * Images
       * Moving Those Images Somewhat
       * Other Things
-  - title: Importance of Bees
-    id: importance
-    content: |
-      Bees are important because they help pollinate plants, which helps plants reproduce.
+      * Not Really Having a Manual, Yet
