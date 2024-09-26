@@ -1,0 +1,201 @@
+name: Command Line Interface
+author: cube-drone
+author_link: https://cube-drone.com
+unlisted: true
+description: |
+  You should probably be using your computer's command line interface more.
+image: assets/bee.jpg
+favicon: assets/favicon.png
+pages:
+  - title: Call to Action
+    id: intro
+    content: |
+      Hey! You should probably be using your computer's command line interface more.
+
+      That is - if you're a programmer, and you're not already using it _all the time_.
+
+      If you're not a programmer, or if you _are_ a programmer and you _are_ using your computer's command line interface
+        all the time, then you can safely ignore this presentation.
+  - title: Command Line Interfaces Are Old
+    id: cli-dumb
+    content: |
+      I'm going to level with you: I am unbelievably **old**.
+
+      My first computers could _only_ be interacted with via a command line interface.
+
+      I'd type in commands, and the computer would respond with text.
+  - title: Example CLI
+    type: animated-text
+    content: |
+      Microsoft<R> Windows DOS
+      (C)Copyright Microsoft Corp 1998-2001.
+
+      C:\> It would look something like this - there was no mouse, no windows, no icons, no nothing.
+      You just waited for a "prompt" to come up, like "C:\>", and then you'd type in a command.
+      Pressing enter would execute the command, and the computer would respond with text.
+  - title: Google and ChatGPT
+    id: google
+    content: |
+      In some sense, the Google search window and the ChatGPT chat window are _also_ kinds of command line interface,
+        although they're incomprehensibly more advanced than the command line interfaces of my youth.
+  - title: I Thought That This Was Dumb
+    id: i-thought-that-this-was-dumb
+    content: |
+      When I finally got my hands on a computer with a graphical user interface, I figured that I was done
+      with the command line interface _forever_.
+
+      But I was wrong!
+  - title: In Fact It Was I Who Was The Dumb One
+    id: in-fact-it-was-i-who-was-the-dumb-one
+    content: |
+      In fact, my dogged insistence on using graphical user interfaces, because _obviously_ they were more advanced,
+       held me back as a software developer for the first few years of my CS education.
+
+      I was completely wrong about the command line interface.
+
+      Let's talk about why.
+  - title: The Easiest Programming Environment In The World
+    id: the-easiest-programming-environment-in-the-world-1
+    content: |
+      The command line interface is harder for the end-user to interact with than a graphical user interface.
+
+      For the sake of brevity, I'm going to call them "CLI" and "GUI" from now on - but you will know
+      that I mean "Command Line Interface" and "Graphical User Interface".
+
+      Anyways: the CLI is harder for the end-user to interact with than the GUI.
+  - title: The Easiest Programming Environment In The World 2
+    id: the-easiest-programming-environment-in-the-world-2
+    content: |
+      Why would you want to program for the CLI, then? If it's harder for users?
+
+      Because it's _easier_ for the _developer_.
+
+      Command line interfaces are _dirt simple_. The very first programs, the tutorial
+      "Hello, World!" programs that you write in
+      any programming langauge are almost always intended to be run from the command line.
+  - title: The Easiest Programming Environment In The World 3
+    id: the-easiest-programming-environment-in-the-world-3
+    content: |
+      Most command line programs take in a few arguments, do a few things, and then print out some text.
+
+      Even a beginner programmer can write a program like that, and use it _immediately_, often
+      on their first ever day of programming.
+  - title: The Easiest Programming Environment In The World 4
+    id: the-easiest-programming-environment-in-the-world-4
+    content: |
+      In my SQL class, we had a "final project": create a program that takes input and executes five different kinds of SQL query.
+
+      I had two questions about the project:
+  - title: Can I Use Python?
+    id: can-i-use-python
+    type: animated-text
+    content: |
+      Can I use Python?
+
+      "Yes."
+  - title: Does It Need A Graphical User Interface?
+    id: does-it-need-a-graphical-user-interface
+    type: animated-text
+    content: |
+      Does it need a graphical user interface?
+
+      "No."
+  - title: The Easiest Programming Environment In The World 5
+    id: the-easiest-programming-environment-in-the-world-5
+    content: |
+      Some of my classmates spent _weeks_ on their projects, trying to get their graphical user interfaces to work,
+        trying to get their Java programs to connect to the database with JDBC drivers and connect all of that
+        to a complicated GUI.
+  - title: The Easiest Programming Environment In The World 6
+    id: the-easiest-programming-environment-in-the-world-6
+    content: |
+      I turned in five Python scripts that took in arguments from the command line, each which took a handful of parameters,
+        executed the related SQL query, and printed out the results.
+
+      Most of them were less than 100 lines of code.
+  - title: The Easiest Programming Environment In The World 7
+    id: the-easiest-programming-environment-in-the-world-7
+    content: |
+      It was exactly no more effort than the assignment called for.
+
+      I got an A. It took about 90 minutes.
+  - title: The Lazy Developer Ecosystem
+    id: the-lazy-developer-ecosystem
+    content: |
+      Thanks to the relative ease of writing command line programs, there's a whole ecosystem of lazy developers
+        who have written command line programs to do _everything_.
+  - title: CLI-First, GUI-Second
+    id: cli-first
+    content: |
+      Many useful programs are written as command line programs first, and then later get a graphical user interface,
+        or never get a graphical user interface at all.
+  - title: The Entire Build Toolchain
+    id: tiny-fraction-of-the-power
+    content: |
+      First and foremost: the entire build or interpreter toolchain for every programming language ever. They're CLI programs first,
+        and if you're _lucky_ your programming environment will have a button that says "Build" with a dizzying array of options
+        that you can click on to harness a tiny fraction of the power of the CLI tools.
+  - title: Git
+    id: git
+    content: |
+      Oh, and let's not forget [git](https://git-scm.com/), the version control system that _figuratively_ every working programmer uses, every single day.
+
+      There are lots of graphical user interfaces for git, but git itself is a command line program.
+  - title: FFMpeg is Incredible
+    id: ffmpeg
+    content: |
+      There's also [ffmpeg](https://www.ffmpeg.org/ffmpeg.html), a free program that
+       can convert essentially any video format to any other video format,
+       and any audio format to any other audio format.
+  - title: Youtube-DL is Incredible
+    id: youtube-dl
+    content: |
+      Another great example is [youtube-dl](https://github.com/ytdl-org/youtube-dl),
+        a free program that can download videos from YouTube.
+
+      You don't even need to go to a super-suspicious website covered in ads!
+
+      _The power was inside your heart all along_.
+  - title: Server-Side
+    id: servers
+    content: |
+      Sometimes, you are interacting with a server, a distant computer that you've rented
+        to dole out pictures of cats to strangers on the internet.
+  - title: Headless
+    id: headless
+    content: |
+      Most servers are _headless_: no monitor, no keyboard, no mouse, no graphical user interface.
+
+      You log in remotely, and you interact with the server via the command line.
+
+      If you're a server developer, knowing your way around the command line isn't just _useful_, it's _necessary_.
+  - title: Fast
+    id: fast
+    content: |
+      As cryptic as the command line interface can be, once you know what you're doing, it's _fast_.
+
+      Much faster than clicking through a bunch of menus and windows.
+  - title: Composable Programs
+    id: composable-programs
+    content: |
+      Okay, here's a weird and cool thing about command line programs: they're _composable_.
+
+      You can take the output of one command, and use it as the input to another command.
+
+      That may not sound like much, but it's _incredibly_ powerful.
+  - title: Composable Programs 2
+    id: composable-programs-2
+    content: |
+      Like, for example, presuming you have access to a bash command line, and
+        the [plain text UTF-8 version of the King James Bible from Project Gutenberg](https://www.gutenberg.org/cache/epub/10/pg10.txt)
+       in a directory, you can use a command like
+
+       `cat bible.txt | grep -i " ass "`
+
+       to spit out every line that contains "ass".
+
+      > 49:14 Issachar is a strong ass couching down between two burdens
+  - title: Composable Programs 3
+    id: composable-programs-3
+    content: |
+      That's the program `cat`, which reads a file and spits it out, working in tandem with `grep`, a program that can search in files.

@@ -10,13 +10,8 @@ extra_header: |
     body{
       font-family: "Times New Roman", Times, serif;
     }
-    .bottom-up {
-      margin-top: 300px;
-      font-size: x-large;
-      text-align: center;
-    }
     .markdown-card {
-      font-size: x-large;
+      font-size: 1.2em;
     }
   </style>
 pages:
@@ -127,15 +122,9 @@ pages:
       And yet we know that plasma is **over 10,000 degrees**.
 
       It **doesn't make any sense**.
-  - id: chemistry
-    stack:
-      - id: chemistry-2
-        content: |
-          ## Chemistry **still** has no explanation for why **superheated plasma** is **in your blood**.
-      - id: chemistry-3
-        fade_in: 1000
-        dolly_out: 0.9
-        image: assets/hmm.png
+  - id: chemistry-2
+    content: |
+      ## Chemistry **still** has no explanation for why **superheated plasma** is **in your blood**.
   - id: plasma-trouble-3
     image: assets/plasma.png
     fade_in: 500
