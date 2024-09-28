@@ -6,87 +6,227 @@ description: |
   You should probably be using your computer's command line interface more.
 image: assets/bee.jpg
 favicon: assets/favicon.png
+extra_header: |
+  <style>
+
+    @font-face {
+      font-family: "DOS";
+      src: url("assets/ModernDOS8x14.ttf") format("truetype");
+    }
+
+    .frames{
+      font-family: "DOS", monospace;
+    }
+
+    .frame-primary, .markdown-card, .html-card{
+      background-color: black;
+      color: white;
+    }
+
+    .frame-primary a{
+      color: white;
+    }
+
+    .frame-visible{
+      background-color: black;
+      color: white;
+    }
+
+    .paddington-bear{
+      padding: 5px;
+    }
+
+    .paddington-ultra{
+      padding: 50px;
+    }
+
+  </style>
 pages:
-  - title: Call to Action
+  - title: You Should Use the Command Line Interface More
     id: intro
+    stack:
+      - id: intro-1
+        class: bottom
+        content: |
+          Hey! You should probably be using your computer's command line interface more.
+      - id: intro-2
+        class:
+          - bump-down-80
+          - bump-left-10
+        image: assets/cli.png
+  - title: Hedging
+    depth: -1
+    class:
+      - middle
+      - center
     content: |
-      Hey! You should probably be using your computer's command line interface more.
-
-      That is - if you're a programmer, and you're not already using it _all the time_.
-
-      If you're not a programmer, or if you _are_ a programmer and you _are_ using your computer's command line interface
+      That is - if you're a programmer, and you're not already using it _all the time_. <sup>1</sup>
+    footnote: |
+      <sup>1</sup>: If you're not a programmer, or if you _are_ a programmer and you _are_ using your computer's command line interface
         all the time, then you can safely ignore this presentation.
+
   - title: Command Line Interfaces Are Old
+    depth: -1
     id: cli-dumb
-    content: |
-      I'm going to level with you: I am unbelievably **old**.
+    stack:
+      - id: cli-dumb-1
+        class:
+          - bottom
+        content: |
+          I'm going to level with you: I am unbelievably **old**.
 
-      My first computers could _only_ be interacted with via a command line interface.
-
-      I'd type in commands, and the computer would respond with text.
+          My first computers could _only_ be interacted with via a command line interface.
+      - id: cli-dumb-2
+        image: assets/ibm.png
+      - id: cli-dumb-2
+        fade_in: 2000
+        image: assets/ibm-2.png
   - title: Example CLI
-    type: animated-text
-    content: |
-      Microsoft<R> Windows DOS
-      (C)Copyright Microsoft Corp 1998-2001.
+    depth: -1
+    class: paddington-bear
+    animated_text: |
+      <div>Microsoft MS-DOS Version 3.30
+      (C)Copyright Microsoft Corp 1981-1987.
 
-      C:\> It would look something like this - there was no mouse, no windows, no icons, no nothing.
-      You just waited for a "prompt" to come up, like "C:\>", and then you'd type in a command.
-      Pressing enter would execute the command, and the computer would respond with text.
+      C:\> <cursor> It would look something like this: You just waited for a "prompt" to come up, like "C:\>", and then you'd type in a command. Pressing enter would execute the command, and the computer would respond with text.</cursor></div>
   - title: Google and ChatGPT
     id: google
-    content: |
-      In some sense, the Google search window and the ChatGPT chat window are _also_ kinds of command line interface,
-        although they're incomprehensibly more advanced than the command line interfaces of my youth.
+    depth: -1
+    stack:
+      - id: google-1
+        class: bump-down-180
+        content: |
+          In some sense, the Google search window and the ChatGPT chat window are _also_ kinds of command line interface.
+
+          You enter your command, and the computer responds with text.
+      - id: google-2
+        shake: 750
+        image: assets/gooble.png
+      - id: google-3
+        image: assets/gooble-2.png
+      - id: google-4
+        fade_in: 1000
+        image: assets/gooble-3.png
+      - id: google-5
+        fade_in: 4000
+        image: assets/gooble-4.png
   - title: I Thought That This Was Dumb
     id: i-thought-that-this-was-dumb
-    content: |
-      When I finally got my hands on a computer with a graphical user interface, I figured that I was done
-      with the command line interface _forever_.
+    depth: -1
+    stack:
+      - id: i-thought-that-this-was-dumb-1
+        class:
+          - bump-down-20
+          - paddington-ultra
+        content: |
+          When I finally got my hands on a computer with a graphical user interface, I figured that I was done
+          with the dumb command line interface _forever_.
 
-      But I was wrong!
+          But I was wrong!
+      - id: i-thought-that-this-was-dumb-2
+        image: assets/window.png
+      - id: i-thought-that-this-was-dumb-3
+        class:
+          - center
+          - bump-down-280
+        delay: 8000
+        animated_text: |
+          <wave>In fact it was I who was the dumb one!</wave>
   - title: In Fact It Was I Who Was The Dumb One
     id: in-fact-it-was-i-who-was-the-dumb-one
+    depth: -1
+    stack:
+      - id: in-fact-it-was-i-who-was-the-dumb-one-1
+        class:
+          - bottom
+        content: |
+          In fact, my dogged insistence on using graphical user interfaces, because _obviously_ they were more advanced,
+           held me back as a software developer for the first few years of my CS education.
+      - id: in-fact-it-was-i-who-was-the-dumb-one-2
+        image: assets/held-back.png
+        class:
+          - bump-down-100
+          - center
+      - id: in-fact-it-was-i-who-was-the-dumb-one-2
+        fade_in: 3000
+        duration: 100
+        image: assets/held-back-2.png
+        class:
+          - bump-down-100
+          - center
+      - id: in-fact-it-was-i-who-was-the-dumb-one-2
+        fade_in: 3300
+        duration: 100
+        image: assets/held-back.png
+        class:
+          - bump-down-100
+          - center
+  - title: CLI vs GUI
+    id: cli-vs-gui
+    depth: -1
+    stack:
+      - id: cli-vs-gui
+        content: |
+          Sometimes, I will refer to them as "CLI" and "GUI" (pronounced "Gooey") -
+          but you will know that I mean "Command Line Interface" and "Graphical User Interface".
+      - id: cli-vs-gui-2
+        image: assets/cli-gui.png
+  - title: Why Should You Use the CLI?
+    id: so
+    class:
+      - center
+      - middle
     content: |
-      In fact, my dogged insistence on using graphical user interfaces, because _obviously_ they were more advanced,
-       held me back as a software developer for the first few years of my CS education.
+      ## So why should you use the CLI?
 
-      I was completely wrong about the command line interface.
-
-      Let's talk about why.
-  - title: The Easiest Programming Environment In The World
-    id: the-easiest-programming-environment-in-the-world-1
+      obviously the way to start here is with a numbered list
+  - title: 1. It Is The Easiest Programming Environment In the World
+    depth: 2
+    id: easy
+    class:
+      - center
+      - middle
     content: |
-      The command line interface is harder for the end-user to interact with than a graphical user interface.
+      ## 1. It is the easiest programming environment in the world
 
-      For the sake of brevity, I'm going to call them "CLI" and "GUI" from now on - but you will know
-      that I mean "Command Line Interface" and "Graphical User Interface".
+  - title: The Easiest Programming Environment In The World 1
+    depth: -1
+    id: the-easiest-programming-environment-in-the-world
+    content: |
+      "But the command line interface is _hard to use_!" you might say.
 
-      Anyways: the CLI is harder for the end-user to interact with than the GUI.
+      Yes! It is! It's _much_ harder to use than a graphical user interface.
   - title: The Easiest Programming Environment In The World 2
+    depth: -1
     id: the-easiest-programming-environment-in-the-world-2
     content: |
-      Why would you want to program for the CLI, then? If it's harder for users?
+      Why would you want to program for the CLI, then? If it's harder for the users?
 
-      Because it's _easier_ for the _developer_.
-
+      Because it's _easier_ for the _you, the developer_.
+  - title: Hello World
+    depth: -1
+    id: hello-world
+    content: |
       Command line interfaces are _dirt simple_. The very first programs, the tutorial
       "Hello, World!" programs that you write in
       any programming langauge are almost always intended to be run from the command line.
   - title: The Easiest Programming Environment In The World 3
+    depth: -1
     id: the-easiest-programming-environment-in-the-world-3
     content: |
-      Most command line programs take in a few arguments, do a few things, and then print out some text.
+      Even very complicated command line programs take in a few arguments, do a few things, and then print out some text.
 
       Even a beginner programmer can write a program like that, and use it _immediately_, often
       on their first ever day of programming.
   - title: The Easiest Programming Environment In The World 4
+    depth: -1
     id: the-easiest-programming-environment-in-the-world-4
     content: |
       In my SQL class, we had a "final project": create a program that takes input and executes five different kinds of SQL query.
 
       I had two questions about the project:
   - title: Can I Use Python?
+    depth: -1
     id: can-i-use-python
     type: animated-text
     content: |
