@@ -2,6 +2,7 @@ name: Command Line Interface
 author: cube-drone
 author_link: https://cube-drone.com
 unlisted: true
+container_class: crt
 description: |
   You should probably be using your computer's command line interface more.
 image: assets/bee.jpg
@@ -14,8 +15,11 @@ extra_header: |
       src: url("assets/ModernDOS8x14.ttf") format("truetype");
     }
 
-    .frames{
+    .rendered-content{
       font-family: "DOS", monospace;
+      background-color: black;
+      color: white;
+      font-size: 1.1em;
     }
 
     .frame-primary, .markdown-card, .html-card{
@@ -60,7 +64,9 @@ pages:
       - middle
       - center
     content: |
-      That is - if you're a programmer, and you're not already using it _all the time_. <sup>1</sup>
+      That is -
+
+      if you're a programmer, and you're not already using it _all the time_. <sup>1</sup>
     footnote: |
       <sup>1</sup>: If you're not a programmer, or if you _are_ a programmer and you _are_ using your computer's command line interface
         all the time, then you can safely ignore this presentation.
@@ -84,9 +90,10 @@ pages:
   - title: Example CLI
     depth: -1
     class: paddington-bear
+    container_class: crt
     animated_text: |
       <div>Microsoft MS-DOS Version 3.30
-      (C)Copyright Microsoft Corp 1981-1987.
+      (C)Copyright Microsoft Corp 1986
 
       C:\> <cursor> It would look something like this: You just waited for a "prompt" to come up, like "C:\>", and then you'd type in a command. Pressing enter would execute the command, and the computer would respond with text.</cursor></div>
   - title: Google and ChatGPT
@@ -116,8 +123,8 @@ pages:
     stack:
       - id: i-thought-that-this-was-dumb-1
         class:
-          - bump-down-20
-          - paddington-ultra
+          - bump-down-30
+          - paddington-bear
         content: |
           When I finally got my hands on a computer with a graphical user interface, I figured that I was done
           with the dumb command line interface _forever_.
@@ -125,13 +132,6 @@ pages:
           But I was wrong!
       - id: i-thought-that-this-was-dumb-2
         image: assets/window.png
-      - id: i-thought-that-this-was-dumb-3
-        class:
-          - center
-          - bump-down-280
-        delay: 8000
-        animated_text: |
-          <wave>In fact it was I who was the dumb one!</wave>
   - title: In Fact It Was I Who Was The Dumb One
     id: in-fact-it-was-i-who-was-the-dumb-one
     depth: -1
@@ -192,17 +192,26 @@ pages:
   - title: The Easiest Programming Environment In The World 1
     depth: -1
     id: the-easiest-programming-environment-in-the-world
-    content: |
-      "But the command line interface is _hard to use_!" you might say.
+    stack:
+      - id: the-easiest-programming-environment-in-the-world-1
+        class: bottom
+        content: |
+          "But the command line interface is _hard to use_!" you might say.
 
-      Yes! It is! It's _much_ harder to use than a graphical user interface.
+          Yes! It is! It's _much_ harder to use than a graphical user interface.
+      - id: tepeiw-2
+        image: assets/hard-to-use.png
   - title: The Easiest Programming Environment In The World 2
-    depth: -1
     id: the-easiest-programming-environment-in-the-world-2
-    content: |
-      Why would you want to program for the CLI, then? If it's harder for the users?
+    depth: -1
+    stack:
+      - id: the-easiest-programming-environment-in-the-world-2-a
+        content: |
+          Why would you want to program for the CLI, then? If it's harder for the users?
 
-      Because it's _easier_ for the _you, the developer_.
+          Because it's _easier_ for the _you, the programmer_.
+      - id: the-easiest-programming-environment-in-the-world-2-b
+        image: assets/easy-to-use.png
   - title: Hello World
     depth: -1
     id: hello-world
