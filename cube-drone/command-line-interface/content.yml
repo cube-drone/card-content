@@ -44,6 +44,14 @@ extra_header: |
       padding: 50px;
     }
 
+    .cyan{
+      color: cyan;
+    }
+
+    .magenta{
+      color: magenta;
+    }
+
   </style>
 pages:
   - title: You Should Use the Command Line Interface More
@@ -59,6 +67,7 @@ pages:
           - bump-left-10
         image: assets/cli.png
   - title: Hedging
+    id: thanks-to-this-slide-i-decided-i-needed-to-implement-snarky-footnotes-which-took-like-six-hours
     depth: -1
     class:
       - middle
@@ -73,7 +82,7 @@ pages:
 
   - title: Command Line Interfaces Are Old
     depth: -1
-    id: cli-dumb
+    id: i-am-not-yet-forty-at-the-time-of-writing-this-but-i-still-feel-senescent
     stack:
       - id: cli-dumb-1
         class:
@@ -88,6 +97,7 @@ pages:
         fade_in: 2000
         image: assets/ibm-2.png
   - title: Example CLI
+    id: this-is-another-slide-that-took-way-too-long-to-make
     depth: -1
     class: paddington-bear
     container_class: crt
@@ -97,7 +107,7 @@ pages:
 
       C:\> <cursor> It would look something like this: You just waited for a "prompt" to come up, like "C:\>", and then you'd type in a command. Pressing enter would execute the command, and the computer would respond with text.</cursor></div>
   - title: Google and ChatGPT
-    id: google
+    id: send-an-email-to-anus-destroyer-69-at-gooble-dot-email
     depth: -1
     stack:
       - id: google-1
@@ -118,7 +128,7 @@ pages:
         fade_in: 4000
         image: assets/gooble-4.png
   - title: I Thought That This Was Dumb
-    id: i-thought-that-this-was-dumb
+    id: startling-reveal-in-fact-it-was-i-who-was-the-dumb-one
     depth: -1
     stack:
       - id: i-thought-that-this-was-dumb-1
@@ -133,7 +143,7 @@ pages:
       - id: i-thought-that-this-was-dumb-2
         image: assets/window.png
   - title: In Fact It Was I Who Was The Dumb One
-    id: in-fact-it-was-i-who-was-the-dumb-one
+    id: i-really-liked-this-guy-dragging-the-cursor-it-is-a-fun-image
     depth: -1
     stack:
       - id: in-fact-it-was-i-who-was-the-dumb-one-1
@@ -162,7 +172,7 @@ pages:
           - bump-down-100
           - center
   - title: CLI vs GUI
-    id: cli-vs-gui
+    id: it-is-pronounced-gooey-like-the-sound-a-ghost-makes-when-it-is-slimer-from-ghostbusters-and-no-other-ghosts-ever
     depth: -1
     stack:
       - id: cli-vs-gui
@@ -172,7 +182,7 @@ pages:
       - id: cli-vs-gui-2
         image: assets/cli-gui.png
   - title: Why Should You Use the CLI?
-    id: so
+    id: hint-that-is-what-the-whole-presentation-is-about
     class:
       - center
       - middle
@@ -182,7 +192,7 @@ pages:
       obviously the way to start here is with a numbered list
   - title: 1. It Is The Easiest Programming Environment In the World
     depth: 2
-    id: easy
+    id: we-didnt-do-this-because-it-was-easy-we-did-it-because-we-thought-it-would-be-easy
     class:
       - center
       - middle
@@ -191,7 +201,7 @@ pages:
 
   - title: The Easiest Programming Environment In The World 1
     depth: -1
-    id: the-easiest-programming-environment-in-the-world
+    id: you-are-being-awfully-surly-in-this-hypothesized-dialogue
     stack:
       - id: the-easiest-programming-environment-in-the-world-1
         class: bottom
@@ -202,7 +212,7 @@ pages:
       - id: tepeiw-2
         image: assets/hard-to-use.png
   - title: The Easiest Programming Environment In The World 2
-    id: the-easiest-programming-environment-in-the-world-2
+    id: i-convinced-you-immediately
     depth: -1
     stack:
       - id: the-easiest-programming-environment-in-the-world-2-a
@@ -214,7 +224,7 @@ pages:
         image: assets/easy-to-use.png
   - title: Hello World
     depth: -1
-    id: hello-world
+    id: this-may-not-be-valid-rust-any-more-the-language-changes-every-three-weeks
     stack:
       - id: hello-world-1
         content: |
@@ -234,130 +244,703 @@ pages:
           Hello, world!
   - title: The Easiest Programming Environment In The World 3
     depth: -1
-    id: the-easiest-programming-environment-in-the-world-3
-    content: |
-      Even very complicated command line programs take in a few arguments, do a few things, and then print out some text.
+    id: i-couldnt-but-in-my-defense-the-manual-for-the-TRS-80-was-very-thick
+    stack:
+      - id: the-easiest-programming-environment-in-the-world-3-1
+        class: bottom
+        content: |
+          Most command line programs take in a few arguments,
+          do a few things, and then print out some text.
 
-      Even a beginner programmer can write a program like that, and use it _immediately_, often
-      on their first ever day of programming.
+          Even a beginner programmer can write a program like that, and use
+          it _immediately_, often
+          on their first ever day of programming.
+      - id: the-easiest-programming-environment-in-the-world-3-2
+        image: assets/basic.png
+        class: bump-down-20
   - title: The Easiest Programming Environment In The World 4
     depth: -1
-    id: the-easiest-programming-environment-in-the-world-4
+    id: this-course-was-a-waste-of-several-hundred-perfectly-good-dollars-but-at-least-it-was-good-for-the-gpa
     content: |
-      In my SQL class, we had a "final project": create a program that takes input and executes five different kinds of SQL query.
+      In my university SQL class, we had a "final project": create a program that takes input
+      and executes five different kinds of SQL query.
 
       I had two questions about the project:
-  - title: Can I Use Python?
+    class:
+      - center
+      - middle
+  - id: the-languages-they-had-selected-for-us-were-java-and-c-sharp-and-girl-i-do-not-have-that-kind-of-patience
+    title: Can I Use Python?
     depth: -1
-    id: can-i-use-python
-    type: animated-text
-    content: |
-      Can I use Python?
-
-      "Yes."
-  - title: Does It Need A Graphical User Interface?
-    id: does-it-need-a-graphical-user-interface
-    type: animated-text
-    content: |
-      Does it need a graphical user interface?
-
-      "No."
+    stack:
+      - id: can-i-use-python-hand-up
+        image: assets/hand-up.png
+      - id: can-i-use-python-text
+        animated_text: Can I use Python?
+        class:
+          - bump-down-50
+          - bump-left-50
+          - cyan
+      - id: can-i-use-python-text-2
+        delay: 1200
+        class:
+          - bump-down-100
+          - bump-left-100
+        animated_text: "\"Yes.\""
+  - id: they-were-surprised-that-i-was-asking-because-they-figured-everybody-was-going-to-build-a-gui-but-it-was-not-strictly-a-requirement
+    title: Does It Need A Graphical User Interface?
+    depth: -1
+    stack:
+      - id: does-it-need-a-gui-hand-up
+        image: assets/hand-up.png
+      - id: does-it-need-a-gui-text
+        animated_text: Does it need a GUI?
+        class:
+          - bump-down-50
+          - bump-left-50
+          - cyan
+      - id: does-it-need-a-gui-text-2
+        delay: 1200
+        class:
+          - bump-down-100
+          - bump-left-100
+        animated_text: "\"No.\""
   - title: The Easiest Programming Environment In The World 5
-    id: the-easiest-programming-environment-in-the-world-5
-    content: |
-      Some of my classmates spent _weeks_ on their projects, trying to get their graphical user interfaces to work,
-        trying to get their Java programs to connect to the database with JDBC drivers and connect all of that
-        to a complicated GUI.
+    id: in-their-defense-all-java-projects-look-like-this
+    depth: -1
+    stack:
+      - id: weeeks
+        content: |
+          Some of my classmates spent _weeks_ on their projects, trying to get their graphical user interfaces to work,
+            trying to get their Java programs to connect to the database with JDBC drivers and connect all of that
+            to a complicated system of windows, forms, checkboxes, toggles...
+      - id: weeks-image
+        pngs: assets/agony
+        class:
+          - bump-down-30
+        loop: true
+        pngs_fps: 2
   - title: The Easiest Programming Environment In The World 6
-    id: the-easiest-programming-environment-in-the-world-6
+    depth: -1
+    id: the-fun-ending-to-this-story-is-that-i-got-to-be-lazy-which-is-my-favorite-thing
+    class:
+      - center
+      - middle
     content: |
-      I turned in five Python scripts that took in arguments from the command line, each which took a handful of parameters,
+      I turned in...
+
+      five short Python scripts.
+
+      Each took in arguments from the command line, each took a handful of parameters,
         executed the related SQL query, and printed out the results.
 
       Most of them were less than 100 lines of code.
   - title: The Easiest Programming Environment In The World 7
-    id: the-easiest-programming-environment-in-the-world-7
-    content: |
-      It was exactly no more effort than the assignment called for.
+    depth: -1
+    id: deal-with-it-except-i-added-a-tie-and-made-the-glasses-regular-glasses-instead-of-sunglasses-to-dork-it-up-a-tidge
+    stack:
+      - id: lol
+        class:
+          - bottom
+        content: |
+          It was exactly no more effort than the assignment called for.
 
-      I got an A. It took about 90 minutes.
-  - title: The Lazy Developer Ecosystem
+          I got an A. It took about 90 minutes.
+      - id: dealwithit
+        pngs: assets/dealwithit
+        loop: false
+        pngs_fps: 1
+  - title: 2. The Lazy Developer Ecosystem
+    depth: 2
     id: the-lazy-developer-ecosystem
+    class:
+      - center
+      - middle
     content: |
-      Thanks to the relative ease of writing command line programs, there's a whole ecosystem of lazy developers
-        who have written command line programs to do _everything_.
+      ## 2. The Lazy Programmer Ecosystem
+  - title: The Lazy Programmer Ecosystem
+    id: i-wish-more-of-my-job-involved-napping-on-a-beach-hammock-with-a-coconut-drink-that-has-a-little-umbrella-in-it
+    depth: -1
+    stack:
+      - id: the-lazy-developer-ecosystem-1
+        content: |
+          Thanks to the relative ease of writing command line programs, there's a whole ecosystem of lazy developers
+            who have written command line programs to do _everything_.
+      - id: beach-2
+        image: assets/beach-2.png
+      - id: beach
+        fade_in: 2000
+        image: assets/beach.png
   - title: CLI-First, GUI-Second
-    id: cli-first
-    content: |
-      Many useful programs are written as command line programs first, and then later get a graphical user interface,
-        or never get a graphical user interface at all.
+    depth: -1
+    id: when-someone-says-america-first-what-they-mean-is-that-they-are-a-fucking-racist-but-cli-first-is-okay
+    stack:
+      - content: |
+          Many useful programs are written as command line programs first, and then later get a graphical user interface,
+            or never get a graphical user interface at all.
+        class: bottom
+      - image: assets/disguise.png
+        class:
+          - bump-down-30
+          - bump-left-15
+  - title: CLI-First, GUI-Second
+    depth: -1
+    id: the-rare-meta-move
+    stack:
+      - content: |
+          Including this program. The program that you're reading this on right now. The user-half that you're looking
+          at has a graphical user interface, but the author-half that I wrote this on?
+          Nothin' but text.
+      - image: assets/inception.png
   - title: The Entire Build Toolchain
-    id: tiny-fraction-of-the-power
+    depth: -1
+    id: that-is-right-when-you-get-eclipse-to-build-your-java-project-for-you-it-is-just-doing-cli-stuff-behind-your-back
     content: |
-      First and foremost: the entire build or interpreter toolchain for every programming language ever. They're CLI programs first,
+      ### Maybe most importantly:
+
+      the entire build or interpreter toolchain for every programming language ever. They're CLI programs first,
         and if you're _lucky_ your programming environment will have a button that says "Build" with a dizzying array of options
         that you can click on to harness a tiny fraction of the power of the CLI tools.
+  - title: Look at what they need
+    id: look-at-what-they-need
+    depth: -1
+    stack:
+      - content: |
+          Look at what they need to mimic a fraction of our power.
+        class: bottom
+      - image: assets/fraction.png
+      - image: assets/fraction-2.png
+        fade_in: 3000
+      - image: assets/fraction-3.png
+        fade_in: 6000
+      - image: assets/fraction-4.png
+        fade_in: 9000
   - title: Git
-    id: git
-    content: |
-      Oh, and let's not forget [git](https://git-scm.com/), the version control system that _figuratively_ every working programmer uses, every single day.
+    depth: -1
+    id: literally-every-working-programmer-uses-git-every-single-day
+    stack:
+      - content: |
+          Oh, and let's not forget [git](https://git-scm.com/), the version control system that literally<sup>1</sup> every working programmer uses, every single day.
 
-      There are lots of graphical user interfaces for git, but git itself is a command line program.
+          There are lots of graphical user interfaces for git, but git itself is a command line program.
+      - image: assets/git.png
+    footnote: |
+      <sup>1</sup>: Not literally. Figuratively.
   - title: FFMpeg is Incredible
-    id: ffmpeg
-    content: |
-      There's also [ffmpeg](https://www.ffmpeg.org/ffmpeg.html), a free program that
-       can convert essentially any video format to any other video format,
-       and any audio format to any other audio format.
+    depth: -1
+    id: ffmpeg-can-probably-be-used-to-convert-episodes-of-the-simpsons-into-audio-files-of-homer-saying-doh
+    stack:
+      - content: |
+          There's also [ffmpeg](https://www.ffmpeg.org/ffmpeg.html), a free program that
+          can convert essentially any video format to any other video format,
+          and any audio format to any other audio format.
+      - image: assets/ffmpeg.png
+        class: bump-down-10
+      - image: assets/ffmpeg-2.png
+        fade_in: 2000
+        class: bump-down-10
+
   - title: Youtube-DL is Incredible
-    id: youtube-dl
+    depth: -1
+    id: youtube-will-invariably-shut-down-youtube-dl-but-they-will-never-shut-down-the-idea-of-youtube-dl
     content: |
       Another great example is [youtube-dl](https://github.com/ytdl-org/youtube-dl),
         a free program that can download videos from YouTube.
 
-      You don't even need to go to a super-suspicious website covered in ads!
+      You don't even need to go to a super-suspicious website covered in ads to download YouTube videos!
 
-      _The power was inside your heart all along_.
+      _The power was inside your heart all along_<sup>1</sup>.
+    footnote: |
+      <sup>1</sup>: Wait, hold up, my mistake, it was actually _cholesterol_ that was in your heart all along.
+  - title: 3. Server Side Economics
+    depth: 2
+    id: server-side-economics-is-a-pun-referencing-the-idea-of-supply-side-economics-which-is-a-term-that-i-dont-fully-understand-but-i-think-it-has-something-to-do-with-ronald-reagan-giving-government-money-to-people-who-are-already-rich
+    class:
+      - center
+      - middle
+    content: |
+      ## 3. Server Side Economics
   - title: Server-Side
-    id: servers
-    content: |
-      Sometimes, you are interacting with a server, a distant computer that you've rented
-        to dole out pictures of cats to strangers on the internet.
+    depth: -1
+    id: i-am-constantly-doling-out-pictures-of-cats-to-strangers-on-the-internet
+    stack:
+      - content: |
+          Sometimes, you are interacting with a server, a distant computer that you've rented
+            to dole out pictures of cats to strangers on the internet.<sup>1</sup>
+        footnote: |
+          <sup>1</sup>: This and pornography are the two most valid and important uses of the internet.
+        class: bump-down-240
+      - image: assets/server.png
+      - image: assets/server-2.png
+        fade_in: 2000
+      - image: assets/server-3.png
+        fade_in: 4000
   - title: Headless
-    id: headless
+    depth: -1
+    id: also-sometimes-headless-servers-will-terrorize-the-town-of-sleepy-hollow
+    stack:
+      - content: |
+          Most servers are _headless_: no monitor, no keyboard, no mouse, no graphical user interface.
+      - image: assets/headless.png
+      - image: assets/headless-2.png
+        fade_in: 1000
+      - image: assets/headless-3.png
+        fade_in: 3000
+      - image: assets/headless-4.png
+        fade_in: 6000
+  - title: Headless-2
+    depth: -1
+    id: i-am-going-to-level-with-you-i-am-a-server-developer
+    stack:
+      - content: |
+          You log in remotely, using a tool like `ssh`, and you interact with the server via the command line.
+      - animated_text: |
+          <div><fast><cursor color="cyan" style="font-size: 0.9em">
+            $ ssh gooble.email
+            Welcome to Ubuntu 40.94.6 LTS
+            (GNU/Linux 5.4.0-110-generic x86_64)
+
+            * Documentation: no
+            * Management: https://haha.business
+
+            root@gooble:~# sudo apt-get update
+            <color value="pink">I'm sorry, Dave, I'm afraid I can't do that.</color>
+
+            root@gooble:~# cat /var/log/error.log
+            <color value="pink">I think you know what the problem is just as well as I do.</color>
+
+            </cursor>
+            </fast>
+          </div>
+        class:
+          - bump-down-70
+  - title: 4. Rapido Rapido
+    depth: 2
+    id: rapido-is-spanish-for-please-spit-in-my-carnitas
+    class:
+      - center
+      - middle
     content: |
-      Most servers are _headless_: no monitor, no keyboard, no mouse, no graphical user interface.
-
-      You log in remotely, and you interact with the server via the command line.
-
-      If you're a server developer, knowing your way around the command line isn't just _useful_, it's _necessary_.
+      ## 4. Rapido Rapido
   - title: Fast
-    id: fast
+    depth: -1
+    id: i-can-tab-complete-my-way-through-a-directory-structure-at-light-speed-so-long-as-nobody-used-a-special-character-in-a-file-name
     content: |
-      As cryptic as the command line interface can be, once you know what you're doing, it's _fast_.
+      As cryptic as the command line interface can be, once you know what you're doing<sup>1</sup>, it's _fast_.
 
-      Much faster than clicking through a bunch of menus and windows.
+      Much faster than clicking through a bunch of menus and windows.<sup>2</sup>
+
+      _Especially_ if you can get [two people to type at the same time](https://www.youtube.com/watch?v=u8qgehH3kEQ).
+    footnote: |
+      <sup>1</sup>: Basically, once you've got tab completion on lock.
+
+      <sup>2</sup>: This whole point would be better with some kind of anecdote or evidence or _something_,
+        but instead I'm just going to claim that this is true on the face of it and hope that you believe me.
+  - title: 5. Easy to Install
+    depth: 2
+    id: easy-to-install
+    class:
+      - center
+      - middle
+    content: |
+      ## 5. Easy to Install
+  - title: Easy to Install
+    depth: -1
+    id: i-am-sneaking-tutorials-into-this-presentation-as-if-you-wouldnt-notice
+    content: |
+      If you're using a Mac or a Linux machine, you've already got a command line interface installed<sup>1</sup>.
+
+      You can open it up right now by searching for "Terminal" in your applications<sup>2</sup>.
+    footnote: |
+      <sup>1</sup>: I've been here the **whole time**.
+
+      <sup>2</sup>: It's called "terminal" because the computer's terminal is supposed to
+        be the _last stop_ for the computer's output, not because your computer is dying or
+         it is a smelly place where you can get a train to Missisauga.
+  - title: Windows Tho
+    depth: -1
+    id: windows-is-harder-tho
+    content: |
+      Windows is a little more effort.
+
+      You can get to a command line interface by searching for "cmd" in your applications, but
+        there's a caveat: it's simulating the old MS-DOS command line interface.
+
+      The commands aren't the same, and it's less powerful.<sup>1</sup>
+    footnote: |
+      <sup>1</sup>: Okay, Windows _also_ has PowerShell, which, if you're going to get deep
+        into Windows automation, is _very_ powerful. But who wants to get deep into **Windows** automation?
+        People who want to pay five times as much money for their servers?
+        IT professionals who are _angling for a promotion_? Terry? Terry, is that you?
+  - title: Windows Tho 2
+    depth: -1
+    id: fixing-windows
+    stack:
+      - content: |
+          However, if you install [Git for Windows](https://git-scm.com/),
+            or if you install [Ubuntu for Windows](https://ubuntu.com/desktop/wsl),
+            both of them come with options for running Mac or Linux style commands from Windows.
+      - image: assets/parting-clouds.png
+        class: bump-down-40
+  - title: Choosing A Terminal App
+    depth: -1
+    id: cmd-is-awful
+    content: |
+      The default terminal app on Windows is also quite bad.
+
+      There used to be a lot of options for good terminal apps on Windows, but then Microsoft itself
+      dropped [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) which is, actually,
+      in my opinion, the best terminal app on **any platform**<sup>1</sup>.
+    footnote: |
+      <sup>1</sup>: i will fight you, ConEmu stans, this is the hill i will die on
+  - title: 6. You Only Need To Know Like 5 Commands To Get Started
+    depth: 2
+    id: sudo-apt-get-install-vim
+    class:
+      - center
+      - middle
+    content: |
+      ## 6. You Only Need To Know Like 5 Commands To Get Started
+  - title: ls and cd
+    depth: -1
+    id: ls-and-cd
+    stack:
+      - content: |
+          The two most important commands are `ls` and `cd`.
+
+          These are your basic navigational bread and butter:
+
+          `ls` lists the files in the current directory, and `cd` changes the current directory.
+      - image: assets/ls-and-cd.png
+        class: bump-down-20
+  - title: ls and cd example
+    depth: -1
+    id: ls-and-cd-example
+    animated_text: |
+      <div><fast><cursor color="cyan" style="font-size: 0.9em">
+        ~$ ls
+        Desktop Documents Downloads Music Pictures Videos
+
+        ~$ cd Documents
+
+        ~/Documents $ ls
+        homework.txt taxes.pdf <rainbow><bounce>PORNOGRAPHY</bounce></rainbow> more_taxes.odt
+
+        ~/Documents $ cd ..
+
+        ~$ ls
+        Desktop Documents Downloads Music Pictures Videos
+
+      </cursor></fast></div>
+  - title: tab-completion
+    depth: -1
+    id: tab-completion
+    content: |
+      `cd` also tab-completes: type the first few characters of a directory that you want to navigate to, then press
+        "tab" and the computer will fill in the rest. If there's more than one directory that starts with
+        the same letters, it'll instead show you all of the potential matches.
+
+      ```
+        ~$ cd D
+        Desktop Documents Downloads
+      ```
+
+      Pretty much any command that takes a file or directory as an argument will also tab-complete.
+  - title: dot dot
+    depth: -1
+    id: dot-dot
+    content: |
+      `..` is a special location that means "the parent directory", so `cd ..` will take you up one directory.
+
+      It is the back button of the command line interface.
+
+      ```
+        ~$ ls
+        Desktop Documents Downloads Music
+
+        ~$ cd Desktop
+
+        ~/Desktop$ cd ..
+      ```
+  - title: heirarchical-file-system
+    depth: -1
+    id: if-you-dont-know-what-a-parent-directory-is-you-are-probably-not-far-enough-along-in-your-programming-journey-to-benefit-from-this-presentation
+    content: |
+      Actually, now that I think about it, none of this is going to make sense if you
+        aren't familiar with the concept of a hierarchical file system.
+
+      Basically, your computer's files are organized in a tree structure, with directories
+        arranged like branches, and files as leaves, and the "root" directory at the tru-
+        <small>
+        okay, _you know what_? I think that describing how a file system works
+        is _getting too deep into the weeds_ for this presentation.
+        </small>
+  - title: ls-options
+    depth: -1
+    id: ls-options
+    content: |
+      `ls` also has a bunch of options that you can use to change the way it displays files.
+
+      `-a` shows ALL files, even hidden and system files.
+
+      `-l` shows files in a "long" format, which includes file permissions, owner, group, size, and date modified.
+
+      `-h` shows the file sizes in a human-readable format.
+
+      You can even combine the options: my favorite is `ls -alh`.
+  - title: ls-options example
+    depth: -1
+    id: ls-options-example
+    content: |
+      for example:
+
+      ```
+        ~$ ls -a
+        . .. hats.txt Downloads
+
+        ~$ ls -alh
+        cube 0     Mar  1 12:00 .
+        cube 0     Mar  1 12:00 ..
+        cube 12.0K Mar  1 12:00 hats.txt
+        cube 0     Mar  1 12:00 Downloads
+      ```
+  - title: pwd
+    depth: -1
+    id: pwd
+    stack:
+      - content: |
+          `pwd` prints the current directory, which usually isn't necessary because most of the
+            time the terminal is configured to show you the current directory _in the prompt somewhere_.
+        footnote: |
+          it's a good joke I'm going to do it twice
+      - animated_text: |
+          <div><fast><cursor color="cyan" style="font-size: 0.9em">
+            $ pwd
+            /home/cube/Documents/<rainbow><bounce>PORNOGRAPHY</bounce></rainbow>
+          </cursor></fast></div>
+        class: bump-down-150
+  - title: cat
+    depth: -1
+    id: cat
+    stack:
+      - content: |
+          `cat` prints out the contents of a text file.
+      - animated_text: |
+          <div><fast><cursor color="cyan" style="font-size: 0.9em">
+            $ cat hats.txt
+            I have a huge head.
+            Hats are dumb and itchy.
+            I do not need a hat because I am not trying to conceal a bald spot.
+            I am a hat truther.
+            Do not trust Big Hat.
+          </cursor></fast></div>
+        class: bump-down-100
+  - title: That is only 4 commands
+    depth: -1
+    id: that-is-only-4-commands
+    content: |
+      "But wait," you might say, "that's only four commands!"
+
+      Yes, I said _like_ five commands. Four is _like_ five.
+
+      I don't know what to tell you.
+
+      ¯\\_(ツ)_/¯
+
+      Maybe you should go read a [whole bunch of Julia Evans](https://jvns.ca/blog/2023/08/08/what-helps-people-get-comfortable-on-the-command-line-/)'
+        blog posts.
+
+      Or, like, a book or something.
+
+      I can't just show off commands all day.
+  - title: 5. The REPL Trick
+    depth: 2
+    id: i-tried-to-think-of-a-fun-pun-having-to-do-with-repl-but-all-i-came-up-with-is-repl-chips-like-ripple-chips-ha-ha-no-that-is-dumb
+    class:
+      - center
+      - middle
+    content: |
+      ## 5. The REPL Trick
+  - title: REPL
+    depth: -1
+    id: wait-a-minute
+    content: |
+      Your programming language might have a "REPL" (which stands for "Read, Eval, Print Loop").
+
+      It's a command line interface that lets you type in a line of code, and then immediately see the result.<sup>1</sup>
+
+      This is particularly common in scripting languages like Python, Ruby, and JavaScript.
+    footnote: |
+      <sup>1</sup>: So, uh, if you think about it, every command line interface is _also_ a REPL.
+  - title: The Actual Repl Trick
+    depth: -1
+    id: it-is-a-good-trick
+    content: |
+      Have you ever had a little procedural question about what, exactly, a line of code does?
+
+      You can just, right now, crack open a repl and try it out<sup>1</sup>:
+
+      ```
+        $ node
+        let x = [1, 2, 3]
+        let y = "potato"
+        console.dir([...x, ...y])
+        // what happens?
+        // only one way to find out
+    footnote: |
+      <sup>1</sup>: This is JavaScript, fyi.
+
+      <sup>2</sup>: `[1, 2, 3, "p", "o", "t", "a", "t", "o"]`.
+
+      <sup>3</sup>: I guess there were two ways to find out.
+  - title: 4. Composable Programs
+    depth: 2
+    id: compostable-programs-are-also-a-thing-but-they-are-not-as-useful-unless-you-are-trying-to-grow-zucchini
+    class:
+      - center
+      - middle
+    content: |
+      ## 4. Composable Programs
   - title: Composable Programs
-    id: composable-programs
-    content: |
-      Okay, here's a weird and cool thing about command line programs: they're _composable_.
+    depth: -1
+    id: you-got-your-grep-in-my-cat-no-you-got-your-cat-in-my-grep
+    stack:
+      - content: |
+          Okay, here's a weird and cool thing about command line programs: they're _composable_.
 
-      You can take the output of one command, and use it as the input to another command.
+          You can take the output of one command, and use it as the input to another command.
 
-      That may not sound like much, but it's _incredibly_ powerful.
+          Isn't that weird? Two programs working _together_?
+      - image: assets/composable.png
   - title: Composable Programs 2
-    id: composable-programs-2
+    depth: -1
+    id: hehe-ass
     content: |
-      Like, for example, presuming you have access to a bash command line, and
+      Like, for example, presuming you have access to a bash<sup>1</sup> command line, and
         the [plain text UTF-8 version of the King James Bible from Project Gutenberg](https://www.gutenberg.org/cache/epub/10/pg10.txt)
-       in a directory, you can use a command like
+       in a directory. <sup>2</sup>
+    footnote: |
+      <sup>1</sup>: Mac OS X and Linux run bash (or in Mac's case, the very similar `zsh`) by default.
+        On Windows in order to install a bash-like environment, I would recommend either installing [Git For Windows](https://git-scm.com/)
+        and saying "yes" to all of the CLI tools they want to bundle with that, or
+        installing [Ubuntu for Windows](https://ubuntu.com/desktop/wsl).
 
-       `cat bible.txt | grep -i " ass "`
+      <sup>2</sup>: If you need a bunch of plain text to donk around with for learning or
+        experimentation reasons, Project Gutenberg has got your back.
+  - title: Composable Programs 3
+    depth: -1
+    id: hehe-ass-ass
+    content: |
+      You can use a command like
 
-       to spit out every line that contains "ass".
+      `cat bible.txt | grep -i " ass "`
+
+      to spit out every line that contains "[ass](https://www.youtube.com/watch?v=iIyLyq6aBTY)".
+
+      > 42:27 And as one of them opened his sack to give his ass provender in
 
       > 49:14 Issachar is a strong ass couching down between two burdens
+
+      > 13:13 And every firstling of an ass thou shalt redeem with a lamb;
   - title: Composable Programs 3
-    id: composable-programs-3
+    depth: -1
+    id: my-cat-is-much-better-than-the-program-cat
     content: |
       That's the program `cat`, which reads a file and spits it out, working in tandem with `grep`, a program that can search in files.
+  - title: 7. The Copper Wire Fallacy
+    depth: 2
+    id: how-much-copper-wire-can-you-eat-my-personal-record-is-getting-hospitalized
+    class:
+      - center
+      - middle
+    content: |
+      ## 7. Conclusion: The Copper Wire Fallacy
+  - title: The Copper Wire Fallacy
+    depth: -1
+    id: the-orthodontist-was-furious
+    content: |
+      There's a thing that I like to call the "Copper Wire Fallacy".
+
+      It's the idea that you're always going to need to know every single thing
+        about computers in order to be a good programmer.
+
+      Like, beneath your day-to-day programming, you could learn about how C works,
+      how memory management works, what a compiler does, how a lexer works, how a parser works,
+      how the Linux kernel works, how the internet works, how the hardware in your computer works...
+  - title: The Copper Wire Fallacy 4
+    depth: -1
+    id: a-footnote-with-a-sub-footnote-footnote-is-a-douglas-adams-joke-that-i-am-stealing-actually-a-lot-of-my-favorite-authors-are-fond-of-funny-asides-in-footnotes-and-also-dead
+    content: |
+      If you're spending all day working on low-level networking components, then, _yes_,
+       you should probably learn about "TCP/IP"<sup>1</sup> and "what a frame is"<sup>2</sup> and
+       "what a packet is"<sup>3</sup> - but a single player video game developer doesn't _need_ to know about any of that.
+    footnote: |
+      <sup>1</sup>: TCP/IP stands for "The Choreographed Packets of Idiots, Paul"<sup>4</sup>
+
+      <sup>2</sup>: It's what you put a picture in, dummy.
+
+      <sup>3</sup>: Ketchup, soy-sauce, hot sauce.
+
+      <sup>4</sup>: Dr. Paul Van Hibblesquibblins, he worked at Bell Labs in 1974 and designed a way to eat Cheetos®
+        without getting dust on your fingers.
+  - title: The Copper Wire Fallacy 5
+    depth: -1
+    id: this-is-a-joke-obviously-quaternions-are-a-thing-that-people-know-about-probably
+    content: |
+      No, a single player video game developer needs to know what a quaternion is.
+
+      Which is too bad, because nobody in history has _ever_ known what a quaternion is<sup>1</sup>.
+    footnote: |
+      <sup>1</sup>Scientists are working around the clock to figure it out, and they've determined that
+        it's _almost certainly_ a kind of fuzzy number with imaginary friends.
+  - title: Father Of The Bride
+    depth: -1
+    id: father-of-the-bride-is-also-a-surprisingly-bad-steve-martin-movie
+    content: |
+      My father-in-law is a retired military computer engineer. He did his Master's in distributed computing.
+
+      I currently work as a distributed systems developer for a MMO<sup>1</sup>.
+    footnote: |
+      <sup>1</sup>: I'd say "the loud one with the explicit anime nonsense", but that doesn't narrow it down
+        as much as I'd want.
+  - title: Father Of The Bride 2
+    depth: -1
+    id: the-sequel-to-father-of-the-bride-was-also-a-surprisingly-bad-steve-martin-movie-although-i-cannot-remember-what-it-was-called
+    content: |
+      You'd think that we'd have a lot to talk about, but we don't: his work was register-level assembly
+      programming on incredibly custom hardware, and my work is mostly writing JavaScript to run in
+      Docker containers on hundreds of imaginary servers that we rent from Jeff Bezos.
+
+
+  - title: The Copper Wire Fallacy 6
+    depth: -1
+    id: now-that-i-think-about-it-i-cant-name-a-good-steve-martin-movie-maybe-the-jerk-i-guess
+    content: |
+      So the idea that you **must** know how a command line interface works in order to _code good_ is
+        almost exactly as silly as the idea that you must know how electricity runs down a copper wire
+        in order to _code good_.
+  - title: The Copper Wire Fallacy 7
+    depth: -1
+    id: as-for-how-to-learn-that-is-a-job-for-a-different-presentation
+    content: |
+      Nevertheless, it's _often useful_ to know your way around a command line interface.
+
+      It's a part of computing.
+
+      And I hope I've convinced you that it's worth your time to learn.
+  - title: 8. Am I Going To Show You How To Use Your Command Line Interface?
+    depth: 2
+    id: i-am-not
+    class:
+      - center
+      - middle
+    content: |
+      ## 8. After All That, Am I Going To Show You How To Use Your Command Line Interface?
+  - id: no
+    depth: -1
+    class:
+      - center
+      - middle
+    fade_in: 2000
+    content: |
+      No.
