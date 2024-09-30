@@ -15,14 +15,6 @@ pages:
 
       ### Presentations:
 
+      * [You Should Use the CLI More](/s/cube-drone/command-line-interface)
       * [Atoms isn't Real](/s/cube-drone/atoms-isn-t-real/).
       * [Nonsense Example Presentation](/s/example/example).
-  - title: Things it Supports
-    id: things it supports
-    content: |
-      ### What Can It Do?
-      * Markdown
-      * Images
-      * Moving Those Images Somewhat
-      * Other Things
-      * Not Really Having a Manual, Yet

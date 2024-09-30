@@ -4,7 +4,7 @@ author_link: https://cube-drone.com
 container_class: crt
 description: |
   You should probably be using your computer's command line interface more.
-image: assets/bee.jpg
+image: assets/title.png
 favicon: assets/favicon.png
 extra_header: |
   <style>
@@ -851,6 +851,7 @@ pages:
       - image: assets/cat-and-grep-2.png
         fade_in: 2000
   - title: Composable Programs 4
+    depth: -1
     class:
       - center
       - middle
