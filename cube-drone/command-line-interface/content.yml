@@ -1,7 +1,6 @@
 name: Command Line Interface
 author: cube-drone
 author_link: https://cube-drone.com
-unlisted: true
 container_class: crt
 description: |
   You should probably be using your computer's command line interface more.
@@ -814,7 +813,7 @@ pages:
       - image: assets/composable.png
   - title: Composable Programs 2
     depth: -1
-    id: hehe-ass
+    id: get-thee-a-bible
     content: |
       Like, for example, presuming you have access to a bash<sup>1</sup> command line, and
         the [plain text UTF-8 version of the King James Bible from Project Gutenberg](https://www.gutenberg.org/cache/epub/10/pg10.txt)
@@ -829,7 +828,7 @@ pages:
         experimentation reasons, Project Gutenberg has got your back.
   - title: Composable Programs 3
     depth: -1
-    id: hehe-ass-ass
+    id: hehe-ass
     content: |
       You can use a command like
 
@@ -845,8 +844,19 @@ pages:
   - title: Composable Programs 3
     depth: -1
     id: my-cat-is-much-better-than-the-program-cat
+    stack:
+      - content: |
+          That's the program `cat`, which reads a file and spits it out, working in tandem with `grep`, a program that can search in files.
+      - image: assets/cat-and-grep.png
+      - image: assets/cat-and-grep-2.png
+        fade_in: 2000
+  - title: Composable Programs 4
+    class:
+      - center
+      - middle
     content: |
-      That's the program `cat`, which reads a file and spits it out, working in tandem with `grep`, a program that can search in files.
+      This is a very basic example but the idea that the command line contains an ecosystem
+      of little tools that can all work together in clever ways is really neat, I think.
   - title: 7. The Copper Wire Fallacy
     depth: 2
     id: how-much-copper-wire-can-you-eat-my-personal-record-is-getting-hospitalized
@@ -854,7 +864,7 @@ pages:
       - center
       - middle
     content: |
-      ## 7. Conclusion: The Copper Wire Fallacy
+      ## 7. The Copper Wire Fallacy
   - title: The Copper Wire Fallacy
     depth: -1
     id: the-orthodontist-was-furious
@@ -886,39 +896,55 @@ pages:
   - title: The Copper Wire Fallacy 5
     depth: -1
     id: this-is-a-joke-obviously-quaternions-are-a-thing-that-people-know-about-probably
-    content: |
-      No, a single player video game developer needs to know what a quaternion is.
+    stack:
+      - content: |
+          No, a single player video game developer needs to know what a quaternion is.
 
-      Which is too bad, because nobody in history has _ever_ known what a quaternion is<sup>1</sup>.
-    footnote: |
-      <sup>1</sup>Scientists are working around the clock to figure it out, and they've determined that
-        it's _almost certainly_ a kind of fuzzy number with imaginary friends.
-  - title: Father Of The Bride
-    depth: -1
-    id: father-of-the-bride-is-also-a-surprisingly-bad-steve-martin-movie
-    content: |
-      My father-in-law is a retired military computer engineer. He did his Master's in distributed computing.
-
-      I currently work as a distributed systems developer for a MMO<sup>1</sup>.
-    footnote: |
-      <sup>1</sup>: I'd say "the loud one with the explicit anime nonsense", but that doesn't narrow it down
-        as much as I'd want.
-  - title: Father Of The Bride 2
-    depth: -1
-    id: the-sequel-to-father-of-the-bride-was-also-a-surprisingly-bad-steve-martin-movie-although-i-cannot-remember-what-it-was-called
-    content: |
-      You'd think that we'd have a lot to talk about, but we don't: his work was register-level assembly
-      programming on incredibly custom hardware, and my work is mostly writing JavaScript to run in
-      Docker containers on hundreds of imaginary servers that we rent from Jeff Bezos.
-
-
+          Which is too bad, because nobody in history has _ever_ known what a quaternion is<sup>1</sup>.
+        footnote: |
+          <sup>1</sup>Scientists are working around the clock to figure it out, and they've determined that
+            it's _almost certainly_ a kind of number.
+      - image: assets/quaternion.png
+        class: bump-down-10
+        delay: 2000
+        shake: 2000
+        fade_in: 2000
   - title: The Copper Wire Fallacy 6
     depth: -1
-    id: now-that-i-think-about-it-i-cant-name-a-good-steve-martin-movie-maybe-the-jerk-i-guess
+    id: warning-do-not-throw-out-errata-at-parties
+    stack:
+      - content: |
+          Even while I have been working as a software developer, the nature of the work has moved and changed.
+
+          Some things that I used to _need to know_ are now little more than interesting errata that
+          I can pull out at parties.
+      - image: assets/parties.png
+        class: bump-down-50
+      - image: assets/partyguests.png
+        class: bump-down-50
+      - image: assets/parties-2.png
+        class: bump-down-50
+        fade_in: 2000
+  - title: Cope
+    depth: -1
+    id: sad-boys
     content: |
-      So the idea that you **must** know how a command line interface works in order to _code good_ is
-        almost exactly as silly as the idea that you must know how electricity runs down a copper wire
-        in order to _code good_.
+      As a method of coping with the feelings of being in a field where my knowledge is
+      _constantly becoming obsolete_, I rationalize
+      it as "well, at least I know how the _new thing_ I'm using works under the hood - new developers are going to
+      miss that **vital context**". But you know what? It seems like they're doing just fine _without_ that
+      **vital context**.
+
+      Maybe not everybody needs to know C.
+  - title: Thats It
+    depth: -1
+    id: thats-it
+    content: |
+      That's the Copper Wire Fallacy hitting me - I don't want that learning to feel useless, so
+      I try to gatekeep it as "vital context" that new developers are missing out on.
+
+      But, of course, you can program just fine in JavaScript without
+      knowing C, or the precise engineering details of how cat-6 cable manages to transmit data over copper wire.
   - title: The Copper Wire Fallacy 7
     depth: -1
     id: as-for-how-to-learn-that-is-a-job-for-a-different-presentation
@@ -935,7 +961,7 @@ pages:
       - center
       - middle
     content: |
-      ## 8. After All That, Am I Going To Show You How To Use Your Command Line Interface?
+      ## 8. Conclusion: After All That, Am I Going To Show You How To Use Your Command Line Interface?
   - id: no
     depth: -1
     class:
