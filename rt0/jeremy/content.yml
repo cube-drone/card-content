@@ -127,8 +127,12 @@ pages:
     stack:
       - image: assets/bg-still.png
       - image: assets/admiral-stiff.png
+        fade_out: 800
+        duration: 200
       - image: assets/admiral-stiff-left.png
         fade_in: 1000
+        fade_out: 1000
+        duration: 1000
       - image: assets/admiral-stiff.png
         fade_in: 2000
       - type: animated-text
@@ -138,3 +142,80 @@ pages:
         class:
           - textboss
         content: Where is Commander Bearworthy? <br/> We're going to need Commander Bearworthy.
+  - title: Confused
+    depth: -1
+    id: confused
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/obseq.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: Commander Bearworthy, sir? <br/> I'm not aware of anybody of rank Commander by that name.
+  - title: Bearworthy
+    depth: -1
+    id: the-bear-is-important
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff-left.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: Commander Bearworthy is a small stuffed bear. <br/> Instructions are in place
+            such that the bear is not to leave the control room.
+  - title: Confused Still
+    depth: -1
+    id: confused-still
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/obseq.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: I'm not sure if I understand the significance of a stuffed bear, sir.
+  - title: Bearworthy-2
+    depth: -1
+    id: do-you-understand
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff-left.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: It will become apparent. You will find Commander Bearworthy, and you will have him
+            in this room within 15 minutes. <br/> <fade>Do you understand?</fade>
+  - title: Sir Yes Sir
+    depth: -1
+    id: sir-yes-sir
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/obseq.png
+        shake: 1000
+        fade_out: 2000
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: Sir, yes, sir!
+  - title: Admiral Turnt
+    depth: -1
+    id: get-me-jeremy
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff.png
+        fade_out: 800
+        duration: 200
+      - image: assets/admiral-turnt.png
+        fade_in: 1000
+      - type: animated-text
+        fps: 48
+        fade_in: 1500
+        delay: 1500
+        class:
+          - textboss
+        content:
+            Computer, get me Jeremy.
