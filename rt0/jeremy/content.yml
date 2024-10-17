@@ -1,0 +1,140 @@
+name: jeremy
+author: rt0
+author_link: https://rt0.com
+description: Jeremy is needed in the control room.
+image: assets/bee.jpg
+favicon: assets/favicon.png
+unlisted: true
+extra_header: |
+  <style>
+    .textboss{
+      height: 100px;
+      width: 98%;
+      font-family: "Helvetica", sans-serif;
+      font-optical-sizing: auto;
+      margin: 3px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 3px solid white;
+      background-color: black;
+      color: white !important;
+      margin-top: 298px;
+      border-radius: 2px;
+    }
+
+  </style>
+pages:
+  - id: look-at-that-smooth-pan
+    title: Protest in the Overflow
+    pan_left: 1
+    stack:
+      - image: assets/bg.png?wide
+        duration: 6000
+        pan_left: 188
+      - image: assets/obseq.png
+        fade_in: 6500
+        delay: 1800
+      - type: animated-text
+        fps: 48
+        fade_in: 6400
+        delay: 6400
+        class:
+          - textboss
+        content: Sir - sir, there's been another protest in the Overflow!
+  - title: Non-Emergency
+    depth: -1
+    id: anybody-who-has-to-deal-with-ops-hates-a-false-page
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: What have I told you about bothering me during non-emergencies? I have a meeting with the board
+          in 15 minutes.
+  - title: Actually Emergency
+    depth: -1
+    id: the-overflow-is-on-fire
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/obseq.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: Sir, this <jitter>is</jitter> something of an emergency.
+  - title: Standard Procedure
+    depth: -1
+    id: just-follow-the-protocol
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-smug.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: We have a well-established procedure for dealing with Overflow protests.
+          Cut oxygen to 10% for a few hours, then send punitive fines to the survivors.
+  - title: Uh, Um, Sir
+    depth: -1
+    id: uh-um-sir
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/obseq.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: Yes, sir, I'm aware of the protocol, but this time they have - um - they
+          have, uh -
+  - title: Irritated
+    depth: -1
+    id: irritated-a-what
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: Out with it. A <bounce>what</bounce>?
+  - title: A Hacker Sir
+    depth: -1
+    id: a-hacker-sir
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/obseq.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: A hacker, sir. They've locked us out of the life support controls.
+  - title: Faceplam
+    depth: -1
+    id: faceplam
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content: God <jitter>damn</jitter> it.
+  - title: Looking Around
+    depth: -1
+    id: looking-around
+    stack:
+      - image: assets/bg-still.png
+      - image: assets/admiral-stiff.png
+      - image: assets/admiral-stiff-left.png
+        fade_in: 1000
+      - image: assets/admiral-stiff.png
+        fade_in: 2000
+      - type: animated-text
+        delay: 2000
+        fade_in: 2000
+        fps: 48
+        class:
+          - textboss
+        content: Where is Commander Bearworthy? <br/> We're going to need Commander Bearworthy.
