@@ -219,3 +219,105 @@ pages:
           - textboss
         content:
             Computer, get me Jeremy.
+  - title: Static
+    depth: -1
+    id: static
+    stack:
+      - pngs: assets/static
+        loop: true
+        pngs_fps: 3
+      - image: assets/admiral-turnt.png
+  - title: Well, that was fast
+    depth: -1
+    id: well-that-was-fast
+    stack:
+      - image: assets/bg-still-hacker.png
+      - image: assets/admiral-turnt.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            Well, that was fas- <br/>
+            Wait - you're not Jeremy. Who are you?
+  - title: Hi, I'm the Hacker
+    depth: -1
+    id: hi-im-the-hacker
+    stack:
+      - image: assets/static-bg.png
+      - image: assets/hacker-profile.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            <rainbow><bounce>They call me Stack Override.</bounce></rainbow><br/>
+            I represent Overflow Sector 7.
+  - title: ugh
+    depth: -1
+    id: ugh
+    stack:
+      - image: assets/bg-still-hacker.png
+      - image: assets/admiral-turnt.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            Ugh. The quote-unquote "hacker". <br/>
+            What do you want?
+  - title: Food, Water, and Air
+    depth: -1
+    id: food-water-air
+    stack:
+      - image: assets/static-bg.png
+      - image: assets/hacker-profile.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            The demands of Sector 7 are simple. <br/>
+            Sufficiency of food, water, and air. <br/>
+            Basic dignity.
+  - title: Threats
+    depth: -1
+    id: threats
+    stack:
+      - image: assets/static-bg.png
+      - image: assets/hacker-profile.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            If our demands are not met, we will <br/>
+            <color value="red"><jitter>override</jitter></color>
+            the life support systems.
+  - title: Cut-Off
+    depth: -1
+    id: cut-off
+    stack:
+      - image: assets/static-bg.png
+      - image: assets/hacker-profile.png
+      - image: assets/mute.png
+        fade_in: 2300
+      - type: animated-text
+        fps: 48
+        fade_out: 2000
+        class:
+          - textboss
+        content:
+            Wait, what are you doi-
+  - title: that's quite enough of that
+    depth: -1
+    id: thats-quite-enough-of-that
+    stack:
+      - image: assets/bg-still-hacker-mute.png
+      - image: assets/admiral-turnt.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            That's quite enough of that.
