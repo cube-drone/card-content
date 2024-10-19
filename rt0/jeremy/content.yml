@@ -218,7 +218,7 @@ pages:
         class:
           - textboss
         content:
-            Computer, get me Jeremy.
+            Computer, get me <strong>Jeremy</strong>.
   - title: Static
     depth: -1
     id: static
@@ -243,6 +243,8 @@ pages:
   - title: Hi, I'm the Hacker
     depth: -1
     id: hi-im-the-hacker
+    class:
+      - crt
     stack:
       - image: assets/static-bg.png
       - image: assets/hacker-profile.png
@@ -252,7 +254,7 @@ pages:
           - textboss
         content:
             <rainbow><bounce>They call me Stack Override.</bounce></rainbow><br/>
-            I represent Overflow Sector 7.
+            I represent Overflow Sector Tulip.
   - title: ugh
     depth: -1
     id: ugh
@@ -269,6 +271,8 @@ pages:
   - title: Food, Water, and Air
     depth: -1
     id: food-water-air
+    class:
+      - crt
     stack:
       - image: assets/static-bg.png
       - image: assets/hacker-profile.png
@@ -277,12 +281,14 @@ pages:
         class:
           - textboss
         content:
-            The demands of Sector 7 are simple. <br/>
+            The demands of Sector Tulip are simple. <br/>
             Sufficiency of food, water, and air. <br/>
             Basic dignity.
   - title: Threats
     depth: -1
     id: threats
+    class:
+      - crt
     stack:
       - image: assets/static-bg.png
       - image: assets/hacker-profile.png
@@ -297,6 +303,8 @@ pages:
   - title: Cut-Off
     depth: -1
     id: cut-off
+    class:
+      - crt
     stack:
       - image: assets/static-bg.png
       - image: assets/hacker-profile.png
@@ -321,3 +329,89 @@ pages:
           - textboss
         content:
             That's quite enough of that.
+  - title: Hi
+    depth: -1
+    id: hi
+    pan_right: 1
+    stack:
+      - image: assets/lg/bg-hacker-static-mute-2.png?wide
+        duration: 2000
+        pan_right: 188
+      - image: assets/jeremy-hi.png
+        fade_in: 2000
+      - type: animated-text
+        fps: 48
+        fade_in: 2500
+        delay: 2500
+        class:
+          - textboss
+        content:
+            Uh, hi there, Miss Admiral.
+  - title: oh, hello
+    depth: -1
+    id: oh-hello-jeremy
+    stack:
+      - image: assets/bg-still-left.png
+      - image: assets/jeremy-hi-small.png
+      - image: assets/admiral-turnt-righter.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            Oh, hello, Jeremy! I'm glad you've arrived.
+  - title: a situation
+    depth: -1
+    id: situation
+    stack:
+      - image: assets/bg-still-left.png
+      - image: assets/jeremy-small.png
+      - image: assets/admiral-turnt-righter-arm.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            we're in a bit of a situation here. <br/>
+            someone has locked us out of the life support controls.
+  - title: at the controls
+    depth: -1
+    id: controls
+    stack:
+      - image: assets/bg-still-left.png
+      - image: assets/jeremy-controls.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            oh, okay, that's easy, let me take a look.
+  - title: at the controls
+    depth: -1
+    id: controls-2
+    stack:
+      - image: assets/bg-still-left.png
+      - image: assets/jeremy-controls.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            ... wait
+  - title: concern troll
+    depth: -1
+    id: concern-trolling
+    stack:
+      - image: assets/bg-still-left.png
+      - image: assets/jeremy-concern.png
+      - type: animated-text
+        fps: 48
+        class:
+          - textboss
+        content:
+            Where is Commander Bearworthy?
+
+
+// obsequius: clipboard, running in, exhausted, holding a bear, saluting
+// admiral: sweet, calm, facepalming, glorious battle, disingenuous
+// jeremy: panic, meltdown, calm, irritated, sad, holding a bear, sniffing a bear
